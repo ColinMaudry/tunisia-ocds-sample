@@ -1,134 +1,103 @@
 {
-	"ocid": "",
-	"id": "",
-	"date": "",
+	"ocid": "ocidprefix-P20180300063",
+	"id": "ocidprefix-P20180300063/1",
+	"date": "2018-05-28T08:58:35Z",
 	"tag": [],
-	"initiationType": "string from initiationType codelist",
+	"initiationType": "tender",
 	"parties": [{
-		"name": "string",
-		"id": "string",
-		"identifier": {
-			"scheme": "string",
-			"id": "string",
-			"legalName": "string",
-			"uri": "string"
+			"name": "Gouvernorat de Gafsa",
+			"id": "33",
+			"identifier": {
+				"scheme": "string",
+				"id": "string",
+				"legalName": "string"
+			},
+			"address": {
+				"streetAddress": "string",
+				"locality": "string",
+				"region": "string",
+				"postalCode": "string",
+				"countryName": "string"
+			},
+			"contactPoint": {
+				"name": "Abdelattif Joufra",
+				"email": "aj@gafsagouv.tn",
+				"telephone": "124347865",
+				"faxNumber": "124347888",
+				"url": "http://gafsa.gouv.tn"
+			},
+			"roles": ["buyer"]
 		},
-		"additionalIdentifiers": [{
-			"scheme": "string",
-			"id": "string",
-			"legalName": "string",
-			"uri": "string"
-		}],
-		"address": {
-			"streetAddress": "string",
-			"locality": "string",
-			"region": "string",
-			"postalCode": "string",
-			"countryName": "string"
-		},
-		"contactPoint": {
-			"name": "string",
-			"email": "string",
-			"telephone": "string",
-			"faxNumber": "string",
-			"url": "string"
-		},
-		"roles": [],
-		"details": "object"
-	}],
+		{
+			"name": "Mahmoud Ben Tayeb",
+			"id": "76",
+			"identifier": {
+				"scheme": "string",
+				"id": "string",
+				"legalName": "Mahmoud Ben Tayeb"
+			},
+			"address": {
+				"streetAddress": "8 rue Fadhel Ben Achour",
+				"locality": "Tunis",
+				"region": "Tunis",
+				"postalCode": "7843",
+				"countryName": "Tunisie"
+			},
+			"contactPoint": {
+				"name": "Mahmoud Ben Tayeb",
+				"email": "mahmoundbt@directmail.tn",
+				"telephone": "129147865",
+				"faxNumber": "129467881",
+				"url": "http://mbentayeb.tn"
+			},
+			"roles": ["buyer"]
+		}
+	],
 	"buyer": {
-		"name": "string",
-		"id": "string"
+		"name": "Gouvernorat de Gafsa",
+		"id": "33"
 	},
 	"planning": {
-		"rationale": "string",
 		"budget": {
-			"id": "string",
-			"description": "string",
-			"amount": {
-				"amount": "number",
-				"currency": "string"
-			},
-			"project": "string",
-			"projectID": "string",
-			"uri": "string"
-		},
-		"documents": [{
-			"id": "string",
-			"documentType": "string",
-			"title": "string",
-			"description": "string",
-			"url": "string",
-			"datePublished": "string",
-			"dateModified": "string",
-			"format": "string",
-			"language": "string"
-		}],
-		"milestones": [{
-			"id": "string",
-			"title": "string",
-			"type": "string",
-			"description": "string",
-			"code": "string",
-			"dueDate": "string",
-			"dateMet": "string",
-			"dateModified": "string",
-			"status": "string from milestoneStatus codelist"
-		}]
+			"description": "",
+			"project": ""
+		}
 	},
 	"tender": {
-		"id": "string",
-		"title": "string",
-		"description": "string",
-		"status": "string from tenderStatus codelist",
+		"id": "2180500059",
+		"title": "Test 1 le 28/05/2018",
+		"description": "",
+		"status": "active",
 		"procuringEntity": {
-			"name": "string",
-			"id": "string"
+			"name": "Gouvernorat de Gafsa",
+			"id": "33"
 		},
 		"items": [{
-			"id": "string",
-			"description": "string",
+			"id": "1",
+			"description": "",
 			"classification": {
-				"scheme": "string",
-				"id": "string",
-				"description": "string",
-				"uri": "string"
+				"scheme": "UNSPSC",
+				"id": "43211507",
+				"description": "Ordinateurs de bureau"
 			},
-			"additionalClassifications": [{
-				"scheme": "string",
-				"id": "string",
-				"description": "string",
-				"uri": "string"
-			}],
-			"quantity": "number",
+			"quantity": "10",
 			"unit": {
-				"scheme": "string",
-				"id": "string",
-				"name": "string",
-				"value": {
-					"amount": "number",
-					"currency": "string"
-				},
-				"uri": "string"
+				"scheme": "",
+				"id": "",
+				"name": "",
+				"uri": ""
 			}
 		}],
 		"value": {
-			"amount": "number",
-			"currency": "string"
+			"amount": "65000",
+			"currency": "TND"
 		},
-		"minValue": {
-			"amount": "number",
-			"currency": "string"
-		},
-		"procurementMethod": "string",
-		"procurementMethodDetails": "string",
-		"procurementMethodRationale": "string",
-		"mainProcurementCategory": "string",
-		"additionalProcurementCategories": "array",
-		"awardCriteria": "string",
-		"awardCriteriaDetails": "string",
-		"submissionMethod": "array",
-		"submissionMethodDetails": "string",
+		"procurementMethod": "open",
+		"mainProcurementCategory": "goods",
+		"awardCriteria": "bestProposal",
+		"awardCriteriaDetails": "",
+		"submissionMethod": ["electronicSubmission", "written"],
+		"submissionMethodDetails": "",
 		"tenderPeriod": {
 			"startDate": "string",
 			"endDate": "string",
@@ -136,59 +105,30 @@
 			"durationInDays": "integer"
 		},
 		"enquiryPeriod": {
-			"startDate": "string",
-			"endDate": "string",
-			"maxExtentDate": "string",
-			"durationInDays": "integer"
+			"startDate": "2018-05-28T09:00:00Z",
+			"endDate": "2018-06-28T09:00:00Z"
 		},
-		"hasEnquiries": "boolean",
-		"eligibilityCriteria": "string",
+		"hasEnquiries": true,
+		"eligibilityCriteria": "",
 		"awardPeriod": {
 			"startDate": "string",
-			"endDate": "string",
-			"maxExtentDate": "string",
-			"durationInDays": "integer"
+			"endDate": "string"
 		},
-		"contractPeriod": {
-			"startDate": "string",
-			"endDate": "string",
-			"maxExtentDate": "string",
-			"durationInDays": "integer"
-		},
-		"numberOfTenderers": "integer",
+		"numberOfTenderers": "2",
 		"tenderers": [{
-			"name": "string",
-			"id": "string"
+			"name": "Mahmoud Ben Tayeb",
+			"id": "76"
 		}],
 		"documents": [{
-			"id": "string",
-			"documentType": "string",
-			"title": "string",
-			"description": "string",
-			"url": "string",
-			"datePublished": "string",
-			"dateModified": "string",
-			"format": "string",
-			"language": "string"
-		}],
-		"milestones": [{
-			"id": "string",
-			"title": "string",
-			"type": "string",
-			"description": "string",
-			"code": "string",
-			"dueDate": "string",
-			"dateMet": "string",
-			"dateModified": "string",
-			"status": "string from milestoneStatus codelist"
-		}],
-		"amendments": [{
-			"date": "string",
-			"rationale": "string",
-			"id": "string",
-			"description": "string",
-			"amendsReleaseID": "string",
-			"releaseID": "string"
+			"id": "34",
+			"documentType": "tenderNotice",
+			"title": "Avis de publication de marché",
+			"description": "",
+			"url": "",
+			"datePublished": "",
+			"dateModified": "",
+			"format": "application/pdf",
+			"language": "fr"
 		}]
 	},
 	"awards": [{
@@ -383,7 +323,7 @@
 			"releaseID": "string"
 		}]
 	}],
-	"language": "string",
+	"language": "fr",
 	"relatedProcesses": [{
 		"id": "string",
 		"relationship": "array",

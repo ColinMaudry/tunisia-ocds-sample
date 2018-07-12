@@ -80,7 +80,7 @@
 				"id": "43211507",
 				"description": "Ordinateurs de bureau"
 			},
-			"quantity": "10",
+			"quantity": 10,
 			"unit": {
 				"scheme": "",
 				"id": "",
@@ -89,7 +89,7 @@
 			}
 		}],
 		"value": {
-			"amount": "65000",
+			"amount": 65000,
 			"currency": "TND"
 		},
 		"procurementMethod": "open",
@@ -114,7 +114,7 @@
 			"startDate": "string",
 			"endDate": "string"
 		},
-		"numberOfTenderers": "2",
+		"numberOfTenderers": 1,
 		"tenderers": [{
 			"name": "Mahmoud Ben Tayeb",
 			"id": "76"
@@ -132,38 +132,33 @@
 		}]
 	},
 	"awards": [{
-		"id": "",
+		"id": "177",
 		"title": "string",
 		"description": "string",
 		"status": "pending",
 		"date": "27-08-2018T10:00:00Z",
 		"value": {
-			"amount": "87000",
+			"amount": 87000,
 			"currency": "TND"
 		},
 		"suppliers": [{
 			"id": "76",
             "name" : "Mahmoud Ben Tayeb"
 		}],
-		"items": [{
-			"id": "string",
-			"description": "string",
+        "items": [{
+			"id": "1",
+			"description": "",
 			"classification": {
-				"scheme": "string",
-				"id": "string",
-				"description": "string",
-				"uri": "string"
+				"scheme": "UNSPSC",
+				"id": "43211507",
+				"description": "Ordinateurs de bureau"
 			},
-			"quantity": "number",
+			"quantity": "10",
 			"unit": {
-				"scheme": "string",
-				"id": "string",
-				"name": "string",
-				"value": {
-					"amount": "number",
-					"currency": "string"
-				},
-				"uri": "string"
+				"scheme": "",
+				"id": "",
+				"name": "",
+				"uri": ""
 			}
 		}],
 		"contractPeriod": {
@@ -184,129 +179,47 @@
 	}],
 	"contracts": [{
 		"id": "string",
-		"awardID": "string",
-		"title": "string",
-		"description": "string",
-		"status": "string from contractStatus codelist",
+		"awardID": "177",
+		"title": "",
+		"description": "",
+		"status": "pending",
 		"period": {
-			"startDate": "string",
-			"endDate": "string",
-			"maxExtentDate": "string",
-			"durationInDays": "integer"
+			"startDate": "29-10-2018T10:00:00Z",
+			"endDate": "29-10-2019T10:00:00Z"
 		},
 		"value": {
-			"amount": "number",
-			"currency": "string"
+			"amount": 87000,
+			"currency": "TND"
 		},
-		"items": [{
-			"id": "string",
-			"description": "string",
+        "items": [{
+			"id": "1",
+			"description": "",
 			"classification": {
-				"scheme": "string",
-				"id": "string",
-				"description": "string",
-				"uri": "string"
+				"scheme": "UNSPSC",
+				"id": "43211507",
+				"description": "Ordinateurs de bureau"
 			},
-			"additionalClassifications": [{
-				"scheme": "string",
-				"id": "string",
-				"description": "string",
-				"uri": "string"
-			}],
-			"quantity": "number",
+			"quantity": 10,
 			"unit": {
-				"scheme": "string",
-				"id": "string",
-				"name": "string",
-				"value": {
-					"amount": "number",
-					"currency": "string"
-				},
-				"uri": "string"
+				"scheme": "",
+				"id": "",
+				"name": "",
+				"uri": ""
 			}
 		}],
 		"dateSigned": "string",
 		"documents": [{
-			"id": "string",
-			"documentType": "string",
-			"title": "string",
-			"description": "string",
-			"url": "string",
-			"datePublished": "string",
-			"dateModified": "string",
-			"format": "string",
-			"language": "string"
+			"id": "87",
+			"documentType": "contractNotice",
+			"title": "",
+			"description": "",
+			"url": "",
+			"datePublished": "17-10-2018T11:55:20Z",
+			"dateModified": "19-10-2018T14:33:40Z",
+			"format": "application/pdf",
+			"language": "fr"
 		}],
-		"implementation": {
-			"transactions": [{
-				"id": "string",
-				"source": "string",
-				"date": "string",
-				"value": {
-					"amount": "number",
-					"currency": "string"
-				},
-				"payer": {
-					"name": "string",
-					"id": "string"
-				},
-				"payee": {
-					"name": "string",
-					"id": "string"
-				},
-				"uri": "string"
-			}],
-			"milestones": [{
-				"id": "string",
-				"title": "string",
-				"type": "string",
-				"description": "string",
-				"code": "string",
-				"dueDate": "string",
-				"dateMet": "string",
-				"dateModified": "string",
-				"status": "string from milestoneStatus codelist"
-			}],
-			"documents": [{
-				"id": "string",
-				"documentType": "string",
-				"title": "string",
-				"description": "string",
-				"url": "string",
-				"datePublished": "string",
-				"dateModified": "string",
-				"format": "string",
-				"language": "string"
-			}]
-		},
-		"relatedProcesses": [{
-			"id": "string",
-			"relationship": "array",
-			"title": "string",
-			"scheme": "string",
-			"identifier": "string",
-			"uri": "string"
-		}],
-		"milestones": [{
-			"id": "string",
-			"title": "string",
-			"type": "string",
-			"description": "string",
-			"code": "string",
-			"dueDate": "string",
-			"dateMet": "string",
-			"dateModified": "string",
-			"status": "string from milestoneStatus codelist"
-		}],
-		"amendments": [{
-			"date": "string",
-			"rationale": "string",
-			"id": "string",
-			"description": "string",
-			"amendsReleaseID": "string",
-			"releaseID": "string"
-		}]
-	}],
+    }],
 	"language": "fr",
 	"relatedProcesses": [{
 		"id": "string",

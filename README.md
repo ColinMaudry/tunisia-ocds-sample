@@ -72,7 +72,7 @@ See the [OCDS documentation](http://standard.open-contracting.org/latest/en/) fo
 | award.value.currency                    | **Award/value_currency**                                        |
 | award.suppliers.id                      | **Award/supplierID**                                            |
 | award.suppliers.name                    | **Award/supplierID**                                            |
-| award.items.id                          | **Lot/id**  (the one that matches **Award/LotID**)              |
+| award.items.id                          | **Lot/id** (the one that matches **Award/LotID**)              |
 | award.items.description                 | **Lot/description**                                             |
 | award.items.classification.scheme       | Most likely it will always be "UNSPSC"                          |
 | award.items.classification.id           | **Lot/classification_id**                                       |
@@ -87,4 +87,11 @@ See the [OCDS documentation](http://standard.open-contracting.org/latest/en/) fo
 | award.contractPeriod.startDate          | YYYY-MM-DDThh:mm:ssZ **Award/contractPeriod_startDate**         |
 | award.contractPeriod.endDate            | YYYY-MM-DDThh:mm:ssZ **Award/contractPeriod_endDate**           |
 | award.Documents                         | See table **Documents**                                         |
+| contract.id                             | **Contract/id**                                                 |
+| contract.awardID                        | **Contract/awardID**                                            |
+| contract.description                    | **Contract/description**                                        |
+| contract.status                         | **Contract/status**                                             |
+| contract.period.startDate               | YYYY-MM-DDThh:mm:ssZ **Contract/period_startDate**              |
+| contract.period.endDate                 | YYYY-MM-DDThh:mm:ssZ **Contract/period_endDate**                |
+| contract.documents                      | See table **Documents**                                         |
 |                                         |                                                                 |

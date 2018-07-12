@@ -132,18 +132,18 @@
 		}]
 	},
 	"awards": [{
-		"id": "string",
+		"id": "",
 		"title": "string",
 		"description": "string",
-		"status": "string from awardStatus codelist",
-		"date": "string",
+		"status": "pending",
+		"date": "27-08-2018T10:00:00Z",
 		"value": {
-			"amount": "number",
-			"currency": "string"
+			"amount": "87000",
+			"currency": "TND"
 		},
 		"suppliers": [{
-			"name": "string",
-			"id": "string"
+			"id": "76",
+            "name" : "Mahmoud Ben Tayeb"
 		}],
 		"items": [{
 			"id": "string",
@@ -154,12 +154,6 @@
 				"description": "string",
 				"uri": "string"
 			},
-			"additionalClassifications": [{
-				"scheme": "string",
-				"id": "string",
-				"description": "string",
-				"uri": "string"
-			}],
 			"quantity": "number",
 			"unit": {
 				"scheme": "string",
@@ -173,29 +167,19 @@
 			}
 		}],
 		"contractPeriod": {
-			"startDate": "string",
-			"endDate": "string",
-			"maxExtentDate": "string",
-			"durationInDays": "integer"
+			"startDate": "28-10-2018T10:00:00Z",
+			"endDate": "28-10-2019T10:00:00Z"
 		},
 		"documents": [{
-			"id": "string",
-			"documentType": "string",
-			"title": "string",
-			"description": "string",
-			"url": "string",
-			"datePublished": "string",
-			"dateModified": "string",
-			"format": "string",
-			"language": "string"
-		}],
-		"amendments": [{
-			"date": "string",
-			"rationale": "string",
-			"id": "string",
-			"description": "string",
-			"amendsReleaseID": "string",
-			"releaseID": "string"
+			"id": "765",
+			"documentType": "awardNotice",
+			"title": "",
+			"description": "",
+			"url": "",
+			"datePublished": "17-10-2018T11:55:20Z",
+			"dateModified": "18-10-2018T10:41:27Z",
+			"format": "application/pdf",
+			"language": "fr"
 		}]
 	}],
 	"contracts": [{

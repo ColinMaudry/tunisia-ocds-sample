@@ -54,18 +54,37 @@ See the [OCDS documentation](http://standard.open-contracting.org/latest/en/) fo
 | tender.awardCriteriaDetails             | **Tender/awardCriteriaDetails**                                 |
 | tender.submissionMethod                 | **Tender/submissionMethod**                                     |
 | tender.submissionMethodDetails          | **Tender/submissionMethodDetails**                              |
-| tender.tenderPeriod.startDate           | **Tender/tenderPeriod_startDate**                               |
-| tender.tenderPeriod.endDate             | **Tender/tenderPeriod_endDate**                                 |
+| tender.tenderPeriod.startDate           | YYYY-MM-DDThh:mm:ssZ **Tender/tenderPeriod_startDate**          |
+| tender.tenderPeriod.endDate             | YYYY-MM-DDThh:mm:ssZ **Tender/tenderPeriod_endDate**            |
 | tender.hasEnquiries                     | **Tender/hasEnquiries**                                         |
 | tender.awardPeriod.startDate            | **Tender/awardPeriod_startDate**                                |
 | tender.awardPeriod.endDate              | **Tender/awardPeriod_endDate**                                  |
+| tender.items.deliveryAddress.           | **Lot/deliveryAddress_**                                        |
+| tender.tenderPeriod.startDate           | YYYY-MM-DDThh:mm:ssZ (**Plan/NoticePublicationDate**)           |
+| tender.tenderPeriod.endDate             | YYYY-MM-DDThh:mm:ssZ (**Plan/ResultPublicationDate**)           |
+| tender.documents                        | See table **Documents**                                         |
+| award.id                                | **Award/id**                                                    |
+| award.title                             | **Award/title**                                                 |
+| award.description                       | **Award/description**                                           |
+| award.status                            | **Award/status**                                                |
+| award.date                              | YYYY-MM-DDThh:mm:ssZ **Award/date**                             |
+| award.value.amount                      | **Award/value_amount**                                          |
+| award.value.currency                    | **Award/value_currency**                                        |
+| award.suppliers.id                      | **Award/supplierID**                                            |
+| award.suppliers.name                    | **Award/supplierID**                                            |
+| award.items.id                          | **Lot/id**  (the one that matches **Award/LotID**)              |
+| award.items.description                 | **Lot/description**                                             |
+| award.items.classification.scheme       | Most likely it will always be "UNSPSC"                          |
+| award.items.classification.id           | **Lot/classification_id**                                       |
+| award.items.classification.description  | **Lot/classification_description**                              |
+| award.items.quantity                    | **Lot/quantity**                                                |
+| award.items.unit.id                     | **Lot/unit_id**                                                 |
+| award.items.unit.name                   | **Lot/unit_name**                                               |
+| award.items.unit.scheme                 | **Lot/unit_scheme**                                             |
+| award.items.unit.uri                    | **Lot/unit_uri**                                                |
+| award.items.value.amount                | **Lot/estimatedValueAmount**                                    |
+| award.items.value.currency              | **Lot/estimatedValueCurrency**                                  |
+| award.contractPeriod.startDate          | YYYY-MM-DDThh:mm:ssZ **Award/contractPeriod_startDate**         |
+| award.contractPeriod.endDate            | YYYY-MM-DDThh:mm:ssZ **Award/contractPeriod_endDate**           |
+| award.Documents                         | See table **Documents**                                         |
 |                                         |                                                                 |
-
-
-
-| tender.items.deliveryAddress. | **Lot/deliveryAddress_** (same value for all items in the release) |
-| ----------------------------- | ------------------------------------------------------------------ |
-| tender.tenderPeriod.startDate | YYYY-MM-DDThh:mm:ssZ (**Plan/NoticePublicationDate**)              |
-| tender.tenderPeriod.endDate   | YYYY-MM-DDThh:mm:ssZ (**Plan/ResultPublicationDate**)              |
-| tender.documents              | See table **Documents**                                            |
-|                               |                                                                    |

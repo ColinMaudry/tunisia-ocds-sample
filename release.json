@@ -1,232 +1,230 @@
 {
-	"ocid": "ocidprefix-P20180300063",
-	"id": "ocidprefix-P20180300063/1",
-	"date": "2018-05-28T08:58:35Z",
-	"tag": [],
-	"initiationType": "tender",
-	"parties": [{
-			"name": "Gouvernorat de Gafsa",
-			"id": "33",
-			"identifier": {
-				"scheme": "string",
-				"id": "string",
-				"legalName": "string"
-			},
-			"address": {
-				"streetAddress": "string",
-				"locality": "string",
-				"region": "string",
-				"postalCode": "string",
-				"countryName": "string"
-			},
-			"contactPoint": {
-				"name": "Abdelattif Joufra",
-				"email": "aj@gafsagouv.tn",
-				"telephone": "124347865",
-				"faxNumber": "124347888",
-				"url": "http://gafsa.gouv.tn"
-			},
-			"roles": ["buyer"]
-		},
-		{
-			"name": "Mahmoud Ben Tayeb",
-			"id": "76",
-			"identifier": {
-				"scheme": "string",
-				"id": "string",
-				"legalName": "Mahmoud Ben Tayeb"
-			},
-			"address": {
-				"streetAddress": "8 rue Fadhel Ben Achour",
-				"locality": "Tunis",
-				"region": "Tunis",
-				"postalCode": "7843",
-				"countryName": "Tunisie"
-			},
-			"contactPoint": {
-				"name": "Mahmoud Ben Tayeb",
-				"email": "mahmoundbt@directmail.tn",
-				"telephone": "129147865",
-				"faxNumber": "129467881",
-				"url": "http://mbentayeb.tn"
-			},
-			"roles": ["buyer"]
-		}
+	"extensions": [
+		"https://raw.githubusercontent.com/open-contracting/ocds_enquiry_extension/v1.1.3/extension.json"
 	],
-	"buyer": {
-		"name": "Gouvernorat de Gafsa",
-		"id": "33"
-	},
-	"planning": {
-		"budget": {
-			"description": "",
-			"project": ""
-		}
-	},
-	"tender": {
-		"id": "2180500059",
-		"title": "Test 1 le 28/05/2018",
-		"description": "",
-		"status": "active",
-		"procuringEntity": {
+	"releases": [{
+		"ocid": "ocidprefix-P20180300063",
+		"id": "ocidprefix-P20180300063/1",
+		"date": "2018-05-28T08:58:35Z",
+		"tag": [],
+		"initiationType": "tender",
+		"parties": [{
+				"name": "Gouvernorat de Gafsa",
+				"id": "33",
+				"identifier": {
+					"scheme": "string",
+					"id": "string",
+					"legalName": "string"
+				},
+				"address": {
+					"streetAddress": "string",
+					"locality": "string",
+					"region": "string",
+					"postalCode": "string",
+					"countryName": "string"
+				},
+				"contactPoint": {
+					"name": "Abdelattif Joufra",
+					"email": "aj@gafsagouv.tn",
+					"telephone": "124347865",
+					"faxNumber": "124347888",
+					"url": "http://gafsa.gouv.tn"
+				},
+				"roles": ["buyer"]
+			},
+			{
+				"name": "Mahmoud Ben Tayeb",
+				"id": "76",
+				"identifier": {
+					"scheme": "string",
+					"id": "string",
+					"legalName": "Mahmoud Ben Tayeb"
+				},
+				"address": {
+					"streetAddress": "8 rue Fadhel Ben Achour",
+					"locality": "Tunis",
+					"region": "Tunis",
+					"postalCode": "7843",
+					"countryName": "Tunisie"
+				},
+				"contactPoint": {
+					"name": "Mahmoud Ben Tayeb",
+					"email": "mahmoundbt@directmail.tn",
+					"telephone": "129147865",
+					"faxNumber": "129467881",
+					"url": "http://mbentayeb.tn"
+				},
+				"roles": ["buyer"]
+			}
+		],
+		"buyer": {
 			"name": "Gouvernorat de Gafsa",
 			"id": "33"
 		},
-		"items": [{
-			"id": "1",
-			"description": "",
-			"classification": {
-				"scheme": "UNSPSC",
-				"id": "43211507",
-				"description": "Ordinateurs de bureau"
-			},
-			"quantity": 10,
-			"unit": {
-				"scheme": "",
-				"id": "",
-				"name": "",
-				"uri": ""
+		"planning": {
+			"budget": {
+				"description": "",
+				"project": ""
 			}
-		}],
-		"value": {
-			"amount": 65000,
-			"currency": "TND"
 		},
-		"procurementMethod": "open",
-		"mainProcurementCategory": "goods",
-		"awardCriteria": "bestProposal",
-		"awardCriteriaDetails": "",
-		"submissionMethod": ["electronicSubmission", "written"],
-		"submissionMethodDetails": "",
-		"tenderPeriod": {
-			"startDate": "string",
-			"endDate": "string",
-			"maxExtentDate": "string",
-			"durationInDays": "integer"
-		},
-		"enquiryPeriod": {
-			"startDate": "2018-05-28T09:00:00Z",
-			"endDate": "2018-06-28T09:00:00Z"
-		},
-		"hasEnquiries": true,
-		"eligibilityCriteria": "",
-		"awardPeriod": {
-			"startDate": "string",
-			"endDate": "string"
-		},
-		"numberOfTenderers": 1,
-		"tenderers": [{
-			"name": "Mahmoud Ben Tayeb",
-			"id": "76"
-		}],
-		"documents": [{
-			"id": "34",
-			"documentType": "tenderNotice",
-			"title": "Avis de publication de marché",
+		"tender": {
+			"id": "2180500059",
+			"title": "Test 1 le 28/05/2018",
 			"description": "",
-			"url": "",
-			"datePublished": "",
-			"dateModified": "",
-			"format": "application/pdf",
-			"language": "fr"
-		}]
-	},
-	"awards": [{
-		"id": "177",
-		"title": "string",
-		"description": "string",
-		"status": "pending",
-		"date": "27-08-2018T10:00:00Z",
-		"value": {
-			"amount": 87000,
-			"currency": "TND"
-		},
-		"suppliers": [{
-			"id": "76",
-            "name" : "Mahmoud Ben Tayeb"
-		}],
-        "items": [{
-			"id": "1",
-			"description": "",
-			"classification": {
-				"scheme": "UNSPSC",
-				"id": "43211507",
-				"description": "Ordinateurs de bureau"
+			"status": "active",
+			"procuringEntity": {
+				"name": "Gouvernorat de Gafsa",
+				"id": "33"
 			},
-			"quantity": "10",
-			"unit": {
-				"scheme": "",
-				"id": "",
-				"name": "",
-				"uri": ""
-			}
-		}],
-		"contractPeriod": {
-			"startDate": "28-10-2018T10:00:00Z",
-			"endDate": "28-10-2019T10:00:00Z"
+			"items": [{
+				"id": "1",
+				"description": "",
+				"classification": {
+					"scheme": "UNSPSC",
+					"id": "43211507",
+					"description": "Ordinateurs de bureau"
+				},
+				"quantity": 10,
+				"unit": {
+					"scheme": "",
+					"id": "",
+					"name": "",
+					"uri": ""
+				}
+			}],
+			"value": {
+				"amount": 65000,
+				"currency": "TND"
+			},
+			"procurementMethod": "open",
+			"mainProcurementCategory": "goods",
+			"awardCriteria": "bestProposal",
+			"awardCriteriaDetails": "",
+			"submissionMethod": ["electronicSubmission", "written"],
+			"submissionMethodDetails": "",
+			"tenderPeriod": {
+				"startDate": "string",
+				"endDate": "string",
+				"maxExtentDate": "string",
+				"durationInDays": "integer"
+			},
+			"enquiryPeriod": {
+				"startDate": "2018-05-28T09:00:00Z",
+				"endDate": "2018-06-28T09:00:00Z"
+			},
+			"hasEnquiries": true,
+			"eligibilityCriteria": "",
+			"awardPeriod": {
+				"startDate": "string",
+				"endDate": "string"
+			},
+			"numberOfTenderers": 1,
+			"tenderers": [{
+				"name": "Mahmoud Ben Tayeb",
+				"id": "76"
+			}],
+			"documents": [{
+				"id": "34",
+				"documentType": "tenderNotice",
+				"title": "Avis de publication de marché",
+				"description": "",
+				"url": "",
+				"datePublished": "",
+				"dateModified": "",
+				"format": "application/pdf",
+				"language": "fr"
+			}],
+			"enquiries": [{}]
 		},
-		"documents": [{
-			"id": "765",
-			"documentType": "awardNotice",
+		"awards": [{
+			"id": "177",
+			"title": "string",
+			"description": "string",
+			"status": "pending",
+			"date": "27-08-2018T10:00:00Z",
+			"value": {
+				"amount": 87000,
+				"currency": "TND"
+			},
+			"suppliers": [{
+				"id": "76",
+				"name": "Mahmoud Ben Tayeb"
+			}],
+			"items": [{
+				"id": "1",
+				"description": "",
+				"classification": {
+					"scheme": "UNSPSC",
+					"id": "43211507",
+					"description": "Ordinateurs de bureau"
+				},
+				"quantity": "10",
+				"unit": {
+					"scheme": "",
+					"id": "",
+					"name": "",
+					"uri": ""
+				}
+			}],
+			"contractPeriod": {
+				"startDate": "28-10-2018T10:00:00Z",
+				"endDate": "28-10-2019T10:00:00Z"
+			},
+			"documents": [{
+				"id": "765",
+				"documentType": "awardNotice",
+				"title": "",
+				"description": "",
+				"url": "",
+				"datePublished": "17-10-2018T11:55:20Z",
+				"dateModified": "18-10-2018T10:41:27Z",
+				"format": "application/pdf",
+				"language": "fr"
+			}]
+		}],
+		"contracts": [{
+			"id": "string",
+			"awardID": "177",
 			"title": "",
 			"description": "",
-			"url": "",
-			"datePublished": "17-10-2018T11:55:20Z",
-			"dateModified": "18-10-2018T10:41:27Z",
-			"format": "application/pdf",
-			"language": "fr"
-		}]
-	}],
-	"contracts": [{
-		"id": "string",
-		"awardID": "177",
-		"title": "",
-		"description": "",
-		"status": "pending",
-		"period": {
-			"startDate": "29-10-2018T10:00:00Z",
-			"endDate": "29-10-2019T10:00:00Z"
-		},
-		"value": {
-			"amount": 87000,
-			"currency": "TND"
-		},
-        "items": [{
-			"id": "1",
-			"description": "",
-			"classification": {
-				"scheme": "UNSPSC",
-				"id": "43211507",
-				"description": "Ordinateurs de bureau"
+			"status": "pending",
+			"period": {
+				"startDate": "29-10-2018T10:00:00Z",
+				"endDate": "29-10-2019T10:00:00Z"
 			},
-			"quantity": 10,
-			"unit": {
-				"scheme": "",
-				"id": "",
-				"name": "",
-				"uri": ""
-			}
+			"value": {
+				"amount": 87000,
+				"currency": "TND"
+			},
+			"items": [{
+				"id": "1",
+				"description": "",
+				"classification": {
+					"scheme": "UNSPSC",
+					"id": "43211507",
+					"description": "Ordinateurs de bureau"
+				},
+				"quantity": 10,
+				"unit": {
+					"scheme": "",
+					"id": "",
+					"name": "",
+					"uri": ""
+				}
+			}],
+			"dateSigned": "string",
+			"documents": [{
+				"id": "87",
+				"documentType": "contractNotice",
+				"title": "",
+				"description": "",
+				"url": "",
+				"datePublished": "17-10-2018T11:55:20Z",
+				"dateModified": "19-10-2018T14:33:40Z",
+				"format": "application/pdf",
+				"language": "fr"
+			}]
 		}],
-		"dateSigned": "string",
-		"documents": [{
-			"id": "87",
-			"documentType": "contractNotice",
-			"title": "",
-			"description": "",
-			"url": "",
-			"datePublished": "17-10-2018T11:55:20Z",
-			"dateModified": "19-10-2018T14:33:40Z",
-			"format": "application/pdf",
-			"language": "fr"
-		}],
-    }],
-	"language": "fr",
-	"relatedProcesses": [{
-		"id": "string",
-		"relationship": "array",
-		"title": "string",
-		"scheme": "string",
-		"identifier": "string",
-		"uri": "string"
+		"language": "fr"
 	}]
 }

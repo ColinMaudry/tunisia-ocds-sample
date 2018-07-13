@@ -141,7 +141,18 @@
 				"format": "application/pdf",
 				"language": "fr"
 			}],
-			"enquiries": [{}]
+			"enquiries": [{
+				"id": "65",
+				"date": "2018-05-28T09:00:00Z",
+				"title": "",
+				"description": "",
+				"dateAnswered": "2018-05-31T13:18:45Z",
+				"answer": "",
+				"relatedItem": "",
+				"author": {
+					"id": ""
+				}
+			}]
 		},
 		"awards": [{
 			"id": "177",

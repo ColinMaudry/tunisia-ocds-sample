@@ -13,7 +13,7 @@
 		"ocid": "ocidprefix-P20180300063",
 		"id": "ocidprefix-P20180300063/1",
 		"date": "2018-05-28T08:58:35Z",
-		"tag": [],
+		"tag": ["tender"],
 		"initiationType": "tender",
 		"parties": [{
 				"name": "Gouvernorat de Gafsa",
@@ -96,7 +96,7 @@
 					"scheme": "",
 					"id": "",
 					"name": "",
-					"uri": ""
+					"uri": "uri:units:placeholder"
 				}
 			}],
 			"value": {
@@ -110,10 +110,8 @@
 			"submissionMethod": ["electronicSubmission", "written"],
 			"submissionMethodDetails": "",
 			"tenderPeriod": {
-				"startDate": "string",
-				"endDate": "string",
-				"maxExtentDate": "string",
-				"durationInDays": "integer"
+				"startDate": "2018-05-28T09:00:00Z",
+				"endDate": "2018-06-28T09:00:00Z"
 			},
 			"enquiryPeriod": {
 				"startDate": "2018-05-28T09:00:00Z",
@@ -122,8 +120,8 @@
 			"hasEnquiries": true,
 			"eligibilityCriteria": "",
 			"awardPeriod": {
-				"startDate": "string",
-				"endDate": "string"
+				"startDate": "2018-06-28T09:00:00Z",
+				"endDate": "2018-07-13T09:00:00Z"
 			},
 			"numberOfTenderers": 1,
 			"tenderers": [{
@@ -135,9 +133,9 @@
 				"documentType": "tenderNotice",
 				"title": "Avis de publication de marché",
 				"description": "",
-				"url": "",
-				"datePublished": "",
-				"dateModified": "",
+				"url": "http://www.marchespublics.gov.tn/onmp/appeldoffre/getfile.php?id=2f2c8fcf0d0c5fca6b425d66f6649564&type=avis_fr",
+                "datePublished": "2018-10-17T11:55:20Z",
+				"dateModified": "2018-10-19T14:33:40Z",
 				"format": "application/pdf",
 				"language": "fr"
 			}],
@@ -159,7 +157,7 @@
 			"title": "string",
 			"description": "string",
 			"status": "pending",
-			"date": "27-08-2018T10:00:00Z",
+			"date": "2018-08-27T10:00:00Z",
 			"value": {
 				"amount": 87000,
 				"currency": "TND"
@@ -176,29 +174,30 @@
 					"id": "43211507",
 					"description": "Ordinateurs de bureau"
 				},
-				"quantity": "10",
+				"quantity": 10,
 				"unit": {
 					"scheme": "",
 					"id": "",
 					"name": "",
-					"uri": ""
+					"uri": "uri:units:placeholder"
 				}
 			}],
 			"contractPeriod": {
-				"startDate": "28-10-2018T10:00:00Z",
-				"endDate": "28-10-2019T10:00:00Z"
+				"startDate": "2018-10-28T10:00:00Z",
+				"endDate": "2019-10-28T10:00:00Z"
 			},
 			"documents": [{
 				"id": "765",
 				"documentType": "awardNotice",
 				"title": "",
 				"description": "",
-				"url": "",
-				"datePublished": "17-10-2018T11:55:20Z",
-				"dateModified": "18-10-2018T10:41:27Z",
+				"url": "http://www.marchespublics.gov.tn/onmp/appeldoffre/getfile.php?id=2f2c8fcf0d0c5fca6b425d66f6649564&type=avis_fr",
+				"datePublished": "2018-10-17T11:55:20Z",
+				"dateModified": "2018-10-18T10:41:27Z",
 				"format": "application/pdf",
 				"language": "fr"
-			}]
+			}],
+			"relatedBid": "14"
 		}],
 		"contracts": [{
 			"id": "string",
@@ -207,8 +206,8 @@
 			"description": "",
 			"status": "pending",
 			"period": {
-				"startDate": "29-10-2018T10:00:00Z",
-				"endDate": "29-10-2019T10:00:00Z"
+				"startDate": "2018-10-29T10:00:00Z",
+				"endDate": "2019-10-29T10:00:00Z"
 			},
 			"value": {
 				"amount": 87000,
@@ -227,23 +226,23 @@
 					"scheme": "",
 					"id": "",
 					"name": "",
-					"uri": ""
+					"uri": "uri:units:placeholder"
 				}
 			}],
-			"dateSigned": "string",
+			"dateSigned": "2018-10-28T10:00:00Z",
 			"documents": [{
 				"id": "87",
 				"documentType": "contractNotice",
 				"title": "",
 				"description": "",
-				"url": "",
-				"datePublished": "17-10-2018T11:55:20Z",
-				"dateModified": "19-10-2018T14:33:40Z",
+				"url": "http://www.marchespublics.gov.tn/onmp/appeldoffre/getfile.php?id=2f2c8fcf0d0c5fca6b425d66f6649564&type=avis_fr",
+				"datePublished": "2018-10-17T11:55:20Z",
+				"dateModified": "2018-10-19T14:33:40Z",
 				"format": "application/pdf",
 				"language": "fr"
 			}]
 		}],
-		"language": "fr"
+		"language": "fr",
 		"bids": {
 			"details": [{
 				"id": "14",

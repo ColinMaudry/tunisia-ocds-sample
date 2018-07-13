@@ -1,6 +1,13 @@
 {
+    "uri":"urn:haicop:ocds:ocidprefix-P20180300063",
+    "version": "1.1",
+    "publisher":{
+        "uri": "http://www.marchespublics.gov.tn",
+        "name": "Observatoire national de la commande publique tunisienne"
+    },
+    "publishedDate": "2018-05-28T08:58:35Z",
 	"extensions": [
-		"https://raw.githubusercontent.com/open-contracting/ocds_enquiry_extension/v1.1.3/extension.json"
+		"https://raw.githubusercontent.com/open-contracting/ocds_enquiry_extension/v1.1.3/extension.json", "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/v1.1.3/extension.json"
 	],
 	"releases": [{
 		"ocid": "ocidprefix-P20180300063",

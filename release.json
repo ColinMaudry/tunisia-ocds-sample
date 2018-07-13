@@ -1,449 +1,262 @@
 {
-  "ocid": "",
-  "id": "",
-  "date": "",
-  "tag": [],
-  "initiationType": "string from initiationType codelist",
-  "parties": [
-    {
-      "name": "string",
-      "id": "string",
-      "identifier": {
-        "scheme": "string",
-        "id": "string",
-        "legalName": "string",
-        "uri": "string"
-      },
-      "additionalIdentifiers": [
-        {
-          "scheme": "string",
-          "id": "string",
-          "legalName": "string",
-          "uri": "string"
-        }
-      ],
-      "address": {
-        "streetAddress": "string",
-        "locality": "string",
-        "region": "string",
-        "postalCode": "string",
-        "countryName": "string"
-      },
-      "contactPoint": {
-        "name": "string",
-        "email": "string",
-        "telephone": "string",
-        "faxNumber": "string",
-        "url": "string"
-      },
-      "roles": [],
-      "details": "object"
-    }
-  ],
-  "buyer": {
-    "name": "string",
-    "id": "string"
-  },
-  "planning": {
-    "rationale": "string",
-    "budget": {
-      "id": "string",
-      "description": "string",
-      "amount": {
-        "amount": "number",
-        "currency": "string"
-      },
-      "project": "string",
-      "projectID": "string",
-      "uri": "string"
+    "uri":"urn:haicop:ocds:ocidprefix-P20180300063",
+    "version": "1.1",
+    "publisher":{
+        "uri": "http://www.marchespublics.gov.tn",
+        "name": "Observatoire national de la commande publique tunisienne"
     },
-    "documents": [
-      {
-        "id": "string",
-        "documentType": "string",
-        "title": "string",
-        "description": "string",
-        "url": "string",
-        "datePublished": "string",
-        "dateModified": "string",
-        "format": "string",
-        "language": "string"
-      }
-    ],
-    "milestones": [
-      {
-        "id": "string",
-        "title": "string",
-        "type": "string",
-        "description": "string",
-        "code": "string",
-        "dueDate": "string",
-        "dateMet": "string",
-        "dateModified": "string",
-        "status": "string from milestoneStatus codelist"
-      }
-    ]
-  },
-  "tender": {
-    "id": "string",
-    "title": "string",
-    "description": "string",
-    "status": "string from tenderStatus codelist",
-    "procuringEntity": {
-      "name": "string",
-      "id": "string"
-    },
-    "items": [
-      {
-        "id": "string",
-        "description": "string",
-        "classification": {
-          "scheme": "string",
-          "id": "string",
-          "description": "string",
-          "uri": "string"
-        },
-        "additionalClassifications": [
-          {
-            "scheme": "string",
-            "id": "string",
-            "description": "string",
-            "uri": "string"
-          }
-        ],
-        "quantity": "number",
-        "unit": {
-          "scheme": "string",
-          "id": "string",
-          "name": "string",
-          "value": {
-            "amount": "number",
-            "currency": "string"
-          },
-          "uri": "string"
-        }
-      }
-    ],
-    "value": {
-      "amount": "number",
-      "currency": "string"
-    },
-    "minValue": {
-      "amount": "number",
-      "currency": "string"
-    },
-    "procurementMethod": "string",
-    "procurementMethodDetails": "string",
-    "procurementMethodRationale": "string",
-    "mainProcurementCategory": "string",
-    "additionalProcurementCategories": "array",
-    "awardCriteria": "string",
-    "awardCriteriaDetails": "string",
-    "submissionMethod": "array",
-    "submissionMethodDetails": "string",
-    "tenderPeriod": {
-      "startDate": "string",
-      "endDate": "string",
-      "maxExtentDate": "string",
-      "durationInDays": "integer"
-    },
-    "enquiryPeriod": {
-      "startDate": "string",
-      "endDate": "string",
-      "maxExtentDate": "string",
-      "durationInDays": "integer"
-    },
-    "hasEnquiries": "boolean",
-    "eligibilityCriteria": "string",
-    "awardPeriod": {
-      "startDate": "string",
-      "endDate": "string",
-      "maxExtentDate": "string",
-      "durationInDays": "integer"
-    },
-    "contractPeriod": {
-      "startDate": "string",
-      "endDate": "string",
-      "maxExtentDate": "string",
-      "durationInDays": "integer"
-    },
-    "numberOfTenderers": "integer",
-    "tenderers": [
-      {
-        "name": "string",
-        "id": "string"
-      }
-    ],
-    "documents": [
-      {
-        "id": "string",
-        "documentType": "string",
-        "title": "string",
-        "description": "string",
-        "url": "string",
-        "datePublished": "string",
-        "dateModified": "string",
-        "format": "string",
-        "language": "string"
-      }
-    ],
-    "milestones": [
-      {
-        "id": "string",
-        "title": "string",
-        "type": "string",
-        "description": "string",
-        "code": "string",
-        "dueDate": "string",
-        "dateMet": "string",
-        "dateModified": "string",
-        "status": "string from milestoneStatus codelist"
-      }
-    ],
-    "amendments": [
-      {
-        "date": "string",
-        "rationale": "string",
-        "id": "string",
-        "description": "string",
-        "amendsReleaseID": "string",
-        "releaseID": "string"
-      }
-    ]
-  },
-  "awards": [
-    {
-      "id": "string",
-      "title": "string",
-      "description": "string",
-      "status": "string from awardStatus codelist",
-      "date": "string",
-      "value": {
-        "amount": "number",
-        "currency": "string"
-      },
-      "suppliers": [
-        {
-          "name": "string",
-          "id": "string"
-        }
-      ],
-      "items": [
-        {
-          "id": "string",
-          "description": "string",
-          "classification": {
-            "scheme": "string",
-            "id": "string",
-            "description": "string",
-            "uri": "string"
-          },
-          "additionalClassifications": [
-            {
-              "scheme": "string",
-              "id": "string",
-              "description": "string",
-              "uri": "string"
-            }
-          ],
-          "quantity": "number",
-          "unit": {
-            "scheme": "string",
-            "id": "string",
-            "name": "string",
-            "value": {
-              "amount": "number",
-              "currency": "string"
-            },
-            "uri": "string"
-          }
-        }
-      ],
-      "contractPeriod": {
-        "startDate": "string",
-        "endDate": "string",
-        "maxExtentDate": "string",
-        "durationInDays": "integer"
-      },
-      "documents": [
-        {
-          "id": "string",
-          "documentType": "string",
-          "title": "string",
-          "description": "string",
-          "url": "string",
-          "datePublished": "string",
-          "dateModified": "string",
-          "format": "string",
-          "language": "string"
-        }
-      ],
-      "amendments": [
-        {
-          "date": "string",
-          "rationale": "string",
-          "id": "string",
-          "description": "string",
-          "amendsReleaseID": "string",
-          "releaseID": "string"
-        }
-      ]
-    }
-  ],
-  "contracts": [
-    {
-      "id": "string",
-      "awardID": "string",
-      "title": "string",
-      "description": "string",
-      "status": "string from contractStatus codelist",
-      "period": {
-        "startDate": "string",
-        "endDate": "string",
-        "maxExtentDate": "string",
-        "durationInDays": "integer"
-      },
-      "value": {
-        "amount": "number",
-        "currency": "string"
-      },
-      "items": [
-        {
-          "id": "string",
-          "description": "string",
-          "classification": {
-            "scheme": "string",
-            "id": "string",
-            "description": "string",
-            "uri": "string"
-          },
-          "additionalClassifications": [
-            {
-              "scheme": "string",
-              "id": "string",
-              "description": "string",
-              "uri": "string"
-            }
-          ],
-          "quantity": "number",
-          "unit": {
-            "scheme": "string",
-            "id": "string",
-            "name": "string",
-            "value": {
-              "amount": "number",
-              "currency": "string"
-            },
-            "uri": "string"
-          }
-        }
-      ],
-      "dateSigned": "string",
-      "documents": [
-        {
-          "id": "string",
-          "documentType": "string",
-          "title": "string",
-          "description": "string",
-          "url": "string",
-          "datePublished": "string",
-          "dateModified": "string",
-          "format": "string",
-          "language": "string"
-        }
-      ],
-      "implementation": {
-        "transactions": [
-          {
-            "id": "string",
-            "source": "string",
-            "date": "string",
-            "value": {
-              "amount": "number",
-              "currency": "string"
-            },
-            "payer": {
-              "name": "string",
-              "id": "string"
-            },
-            "payee": {
-              "name": "string",
-              "id": "string"
-            },
-            "uri": "string"
-          }
-        ],
-        "milestones": [
-          {
-            "id": "string",
-            "title": "string",
-            "type": "string",
-            "description": "string",
-            "code": "string",
-            "dueDate": "string",
-            "dateMet": "string",
-            "dateModified": "string",
-            "status": "string from milestoneStatus codelist"
-          }
-        ],
-        "documents": [
-          {
-            "id": "string",
-            "documentType": "string",
-            "title": "string",
-            "description": "string",
-            "url": "string",
-            "datePublished": "string",
-            "dateModified": "string",
-            "format": "string",
-            "language": "string"
-          }
-        ]
-      },
-      "relatedProcesses": [
-        {
-          "id": "string",
-          "relationship": "array",
-          "title": "string",
-          "scheme": "string",
-          "identifier": "string",
-          "uri": "string"
-        }
-      ],
-      "milestones": [
-        {
-          "id": "string",
-          "title": "string",
-          "type": "string",
-          "description": "string",
-          "code": "string",
-          "dueDate": "string",
-          "dateMet": "string",
-          "dateModified": "string",
-          "status": "string from milestoneStatus codelist"
-        }
-      ],
-      "amendments": [
-        {
-          "date": "string",
-          "rationale": "string",
-          "id": "string",
-          "description": "string",
-          "amendsReleaseID": "string",
-          "releaseID": "string"
-        }
-      ]
-    }
-  ],
-  "language": "string",
-  "relatedProcesses": [
-    {
-      "id": "string",
-      "relationship": "array",
-      "title": "string",
-      "scheme": "string",
-      "identifier": "string",
-      "uri": "string"
-    }
-  ]
+    "publishedDate": "2018-05-28T08:58:35Z",
+	"extensions": [
+		"https://raw.githubusercontent.com/open-contracting/ocds_enquiry_extension/v1.1.3/extension.json", "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/v1.1.3/extension.json"
+	],
+	"releases": [{
+		"ocid": "ocidprefix-P20180300063",
+		"id": "ocidprefix-P20180300063/1",
+		"date": "2018-05-28T08:58:35Z",
+		"tag": ["tender"],
+		"initiationType": "tender",
+		"parties": [{
+				"name": "Gouvernorat de Gafsa",
+				"id": "33",
+				"identifier": {
+					"scheme": "string",
+					"id": "string",
+					"legalName": "string"
+				},
+				"address": {
+					"streetAddress": "string",
+					"locality": "string",
+					"region": "string",
+					"postalCode": "string",
+					"countryName": "string"
+				},
+				"contactPoint": {
+					"name": "Abdelattif Joufra",
+					"email": "aj@gafsagouv.tn",
+					"telephone": "124347865",
+					"faxNumber": "124347888",
+					"url": "http://gafsa.gouv.tn"
+				},
+				"roles": ["buyer"]
+			},
+			{
+				"name": "Mahmoud Ben Tayeb",
+				"id": "76",
+				"identifier": {
+					"scheme": "string",
+					"id": "string",
+					"legalName": "Mahmoud Ben Tayeb"
+				},
+				"address": {
+					"streetAddress": "8 rue Fadhel Ben Achour",
+					"locality": "Tunis",
+					"region": "Tunis",
+					"postalCode": "7843",
+					"countryName": "Tunisie"
+				},
+				"contactPoint": {
+					"name": "Mahmoud Ben Tayeb",
+					"email": "mahmoundbt@directmail.tn",
+					"telephone": "129147865",
+					"faxNumber": "129467881",
+					"url": "http://mbentayeb.tn"
+				},
+				"roles": ["buyer"]
+			}
+		],
+		"buyer": {
+			"name": "Gouvernorat de Gafsa",
+			"id": "33"
+		},
+		"planning": {
+			"budget": {
+				"description": "",
+				"project": ""
+			}
+		},
+		"tender": {
+			"id": "2180500059",
+			"title": "Test 1 le 28/05/2018",
+			"description": "",
+			"status": "active",
+			"procuringEntity": {
+				"name": "Gouvernorat de Gafsa",
+				"id": "33"
+			},
+			"items": [{
+				"id": "1",
+				"description": "",
+				"classification": {
+					"scheme": "UNSPSC",
+					"id": "43211507",
+					"description": "Ordinateurs de bureau"
+				},
+				"quantity": 10,
+				"unit": {
+					"scheme": "",
+					"id": "",
+					"name": "",
+					"uri": "uri:units:placeholder"
+				}
+			}],
+			"value": {
+				"amount": 65000,
+				"currency": "TND"
+			},
+			"procurementMethod": "open",
+			"mainProcurementCategory": "goods",
+			"awardCriteria": "bestProposal",
+			"awardCriteriaDetails": "",
+			"submissionMethod": ["electronicSubmission", "written"],
+			"submissionMethodDetails": "",
+			"tenderPeriod": {
+				"startDate": "2018-05-28T09:00:00Z",
+				"endDate": "2018-06-28T09:00:00Z"
+			},
+			"enquiryPeriod": {
+				"startDate": "2018-05-28T09:00:00Z",
+				"endDate": "2018-06-28T09:00:00Z"
+			},
+			"hasEnquiries": true,
+			"eligibilityCriteria": "",
+			"awardPeriod": {
+				"startDate": "2018-06-28T09:00:00Z",
+				"endDate": "2018-07-13T09:00:00Z"
+			},
+			"numberOfTenderers": 1,
+			"tenderers": [{
+				"name": "Mahmoud Ben Tayeb",
+				"id": "76"
+			}],
+			"documents": [{
+				"id": "34",
+				"documentType": "tenderNotice",
+				"title": "Avis de publication de marché",
+				"description": "",
+				"url": "http://www.marchespublics.gov.tn/onmp/appeldoffre/getfile.php?id=2f2c8fcf0d0c5fca6b425d66f6649564&type=avis_fr",
+                "datePublished": "2018-10-17T11:55:20Z",
+				"dateModified": "2018-10-19T14:33:40Z",
+				"format": "application/pdf",
+				"language": "fr"
+			}],
+			"enquiries": [{
+				"id": "65",
+				"date": "2018-05-28T09:00:00Z",
+				"title": "",
+				"description": "",
+				"dateAnswered": "2018-05-31T13:18:45Z",
+				"answer": "",
+				"relatedItem": "",
+				"author": {
+					"id": ""
+				}
+			}]
+		},
+		"awards": [{
+			"id": "177",
+			"title": "string",
+			"description": "string",
+			"status": "pending",
+			"date": "2018-08-27T10:00:00Z",
+			"value": {
+				"amount": 87000,
+				"currency": "TND"
+			},
+			"suppliers": [{
+				"id": "76",
+				"name": "Mahmoud Ben Tayeb"
+			}],
+			"items": [{
+				"id": "1",
+				"description": "",
+				"classification": {
+					"scheme": "UNSPSC",
+					"id": "43211507",
+					"description": "Ordinateurs de bureau"
+				},
+				"quantity": 10,
+				"unit": {
+					"scheme": "",
+					"id": "",
+					"name": "",
+					"uri": "uri:units:placeholder"
+				}
+			}],
+			"contractPeriod": {
+				"startDate": "2018-10-28T10:00:00Z",
+				"endDate": "2019-10-28T10:00:00Z"
+			},
+			"documents": [{
+				"id": "765",
+				"documentType": "awardNotice",
+				"title": "",
+				"description": "",
+				"url": "http://www.marchespublics.gov.tn/onmp/appeldoffre/getfile.php?id=2f2c8fcf0d0c5fca6b425d66f6649564&type=avis_fr",
+				"datePublished": "2018-10-17T11:55:20Z",
+				"dateModified": "2018-10-18T10:41:27Z",
+				"format": "application/pdf",
+				"language": "fr"
+			}],
+			"relatedBid": "14"
+		}],
+		"contracts": [{
+			"id": "string",
+			"awardID": "177",
+			"title": "",
+			"description": "",
+			"status": "pending",
+			"period": {
+				"startDate": "2018-10-29T10:00:00Z",
+				"endDate": "2019-10-29T10:00:00Z"
+			},
+			"value": {
+				"amount": 87000,
+				"currency": "TND"
+			},
+			"items": [{
+				"id": "1",
+				"description": "",
+				"classification": {
+					"scheme": "UNSPSC",
+					"id": "43211507",
+					"description": "Ordinateurs de bureau"
+				},
+				"quantity": 10,
+				"unit": {
+					"scheme": "",
+					"id": "",
+					"name": "",
+					"uri": "uri:units:placeholder"
+				}
+			}],
+			"dateSigned": "2018-10-28T10:00:00Z",
+			"documents": [{
+				"id": "87",
+				"documentType": "contractNotice",
+				"title": "",
+				"description": "",
+				"url": "http://www.marchespublics.gov.tn/onmp/appeldoffre/getfile.php?id=2f2c8fcf0d0c5fca6b425d66f6649564&type=avis_fr",
+				"datePublished": "2018-10-17T11:55:20Z",
+				"dateModified": "2018-10-19T14:33:40Z",
+				"format": "application/pdf",
+				"language": "fr"
+			}]
+		}],
+		"language": "fr",
+		"bids": {
+			"details": [{
+				"id": "14",
+				"date": "2018-10-17T11:55:20Z",
+				"status": "valid",
+				"tenderers": [{
+					"name": "Mahmoud Ben Tayeb",
+					"id": "76"
+				}],
+				"value": {
+					"amount": 87000,
+					"currency": "TND"
+				}
+			}]
+		}
+	}]
 }

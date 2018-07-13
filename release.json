@@ -244,5 +244,20 @@
 			}]
 		}],
 		"language": "fr"
+		"bids": {
+			"details": [{
+				"id": "14",
+				"date": "2018-10-17T11:55:20Z",
+				"status": "valid",
+				"tenderers": [{
+					"name": "Mahmoud Ben Tayeb",
+					"id": "76"
+				}],
+				"value": {
+					"amount": 87000,
+					"currency": "TND"
+				}
+			}]
+		}
 	}]
 }

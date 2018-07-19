@@ -1,4 +1,4 @@
-# Tunisia OCDS sample 1.0.0
+# Tunisia OCDS sample 1.0.1
 
 Sample data for the development of Tunisia's open contracting API.
 
@@ -132,3 +132,13 @@ The first column is the path to the data. The second column explains where the d
 | releases.bids |                    |
 | ------------- | ------------------ |
 | bids.details  | See table **Bids** |
+
+## Release notes
+
+#### 1.0.1
+
+- Fixed the role of the supplier in the parties block
+
+### 1.0.0 (12/07/2018)
+
+- Initial release

@@ -61,7 +61,7 @@
 					"faxNumber": "129467881",
 					"url": "http://mbentayeb.tn"
 				},
-				"roles": ["buyer"]
+				"roles": ["tenderer","supplier"]
 			}
 		],
 		"buyer": {
